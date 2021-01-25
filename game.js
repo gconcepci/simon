@@ -63,7 +63,7 @@ function startOver() {
 
 
 //Game Logic
-$(document).keydown(function(){ //Page waiting for a key press
+$(document).click(function(){ //Page waiting for a key press
     if (!gameOn) { //gameOn by default is false, so if a key is pressed and gameon is false...
         nextSequence(); // Next sequence plays
         $("#level-title").text("Level " + level);
